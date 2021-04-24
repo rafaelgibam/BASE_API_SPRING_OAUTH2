@@ -8,11 +8,11 @@
 		<version>2.3.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.gestaotrading</groupId>
-	<artifactId>GTS</artifactId>
+	<groupId>br.com.baseapirestoauth2</groupId>
+	<artifactId>BASE_API_REST_OAUTH2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>GTS</name>
-	<description>Gerenciamento de Banca</description>
+	<description>Base API</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -32,6 +32,12 @@
 		 <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springframework.security.oauth.boot</groupId>
+            <artifactId>spring-security-oauth2-autoconfigure</artifactId>
+            <version>2.1.5.RELEASE</version>
         </dependency>
 		
 		<dependency>
